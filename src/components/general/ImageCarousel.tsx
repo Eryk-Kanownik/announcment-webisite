@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
 const ImageCarousel = () => {
-  const wrapperRef = useRef<HTMLDivElement | null | undefined>();
+  const wrapperRef = useRef<HTMLDivElement | null>(null);
   const [images, setImages] = useState<Array<string>>([
     "https://picsum.photos/1000/1500",
     "https://picsum.photos/300/300",
