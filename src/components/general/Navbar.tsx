@@ -8,7 +8,7 @@ const Navbar = () => {
   const [unfolded, setUnfolded] = useState(false);
   const router = useRouter();
   useEffect(() => {
-    window.addEventListener("resize", (e) => {
+    window.addEventListener("resize", (e: any) => {
       if (e.target.innerWidth > 768) {
         setUnfolded((prev) => false);
       } else {
