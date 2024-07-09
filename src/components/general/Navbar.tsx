@@ -1,12 +1,10 @@
 "use client";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import { HiMenu } from "react-icons/hi";
 
 const Navbar = () => {
   const [unfolded, setUnfolded] = useState(false);
-  const router = useRouter();
   useEffect(() => {
     window.addEventListener("resize", (e: any) => {
       if (e.target.innerWidth > 768) {
@@ -38,18 +36,10 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            href="#"
+            href="/admin-panel"
             className="navbar-link"
             onClick={() => setUnfolded((prev) => !prev)}>
-            Profile
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="#"
-            className="navbar-link"
-            onClick={() => setUnfolded((prev) => !prev)}>
-            Cart
+            Your announcments
           </Link>
         </li>
         <li>
@@ -60,7 +50,6 @@ const Navbar = () => {
             Login
           </Link>
         </li>
-
         <li>
           <Link
             href="/register"

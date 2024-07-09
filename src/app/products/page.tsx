@@ -4,7 +4,7 @@ import React from "react";
 const page = () => {
   return (
     <div className="section pt-20">
-      <h1 className="mb-2">Search annoucments!</h1>
+      <h2 className="mb-2">Search annoucments!</h2>
       <div className="mb-6">
         <form>
           <input /> <button>Hello</button>

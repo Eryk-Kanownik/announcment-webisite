@@ -9,7 +9,7 @@ export default function Home() {
           <h1 className="mb-2">
             <span className="text-red-600">Find</span>Sell
           </h1>
-          <p className="font-medium mb-8 text-center">
+          <p className="font-medium mb-4 text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
             voluptate harum ipsum enim temporibus labore maiores itaque sequi
             praesentium sapiente. Magnam nam expedita in aliquam nobis
