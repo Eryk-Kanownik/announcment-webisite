@@ -81,6 +81,9 @@ const ImageCarousel = () => {
           className="text-red-500 duration-200  hover:text-red-300 cursor-pointer"
         />
       </div>
+      <div className="text-white absolute right-4 bottom-4">
+        {currentIndex + 1} / {images.length}
+      </div>
     </div>
   );
 };

@@ -13,7 +13,13 @@ const AnnoucmentCard = () => {
       </div>
       <div>
         <h3>Annoucment name</h3>
-        <p className="text-gray-500">Added: date</p>
+        <p className="text-gray-500 text-[12px]">Added: date</p>
+        <p className="text-sm font-light">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi
+          similique sapiente voluptas suscipit dolore praesentium quam, soluta
+          ad ex architecto ratione reprehenderit, dolorem quod eveniet
+          accusantium rem quos ipsa?
+        </p>
       </div>
       <div>
         <button>Delete</button>
